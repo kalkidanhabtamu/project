@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handspeak | Languages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-mark">H</div>
+            <span>Handspeak</span>
+        </div>
+
+        <nav class="navigation">
+
+            <a href="index.html" class="nav-item">
+                <span class="nav-icon">⌂</span>
+                <span>Home</span>
+            </a>
+
+            <a href="how-it-works.html" class="nav-item">
+                <span class="nav-icon">◎</span>
+                <span>How It Works</span>
+            </a>
+
+            <a href="languages.html" class="nav-item active">
+                <span class="nav-icon">文</span>
+                <span>Languages</span>
+            </a>
+
+            <a href="mission.html" class="nav-item">
+                <span class="nav-icon">♡</span>
+                <span>Our Mission</span>
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <a href="#" class="nav-item">
+                <span class="nav-icon">?</span>
+                <span>Help & Support</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span class="nav-icon">⚙</span>
+                <span>Settings</span>
+            </a>
+
+            <button class="sidebar-translate">
+                Start Translating
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <main class="main">
+
+        <header class="page-header">
+
+            <span class="eyebrow">LANGUAGES</span>
+
+            <h1>
+                Communication across languages.
+            </h1>
+
+            <p>
+                Handspeak is designed to support different sign
+                languages and spoken-language outputs.
+            </p>
+
+        </header>
+
+
+        <div class="language-toolbar">
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="languageSearch"
+                    placeholder="Search languages..."
+                    onkeyup="filterLanguages()">
+            </div>
+
+            <div class="language-count">
+                6 languages available
+            </div>
+
+        </div>
+
+
+        <section class="language-grid" id="languageGrid">
+           <div class="language-card">
+                <div class="language-code">ASL</div>
+                <div>
+                    <h3>Amharic Sign Language</h3>
+                    <p>Ethiopia</p>
+                </div>
+                <span class="available">Available</span>
+            </div>
+            
+            <div class="language-card">
+                <div class="language-code">SSL</div>
+                <div>
+                    <h3>Afaan-Somali Sign Language</h3>
+                    <p>Ethiopia</p>
+                </div>
+                <span class="available">Available</span>
+            </div>
+
+            
+            <div class="language-card">
+                <div class="language-code">OSL</div>
+                <div>
+                    <h3>Afaan-Oromo Sign Language</h3>
+                    <p>Ethiopia</p>
+                </div>
+
+            <div class="language-card">
+                <div class="language-code">ESL</div>
+                <div>
+                    <h3>English Sign Language</h3>
+                    <p>United States and United Kingdom </p>
+                </div>
+                <span class="available">Available</span>
+            </div>
+
+            <div class="language-card">
+                <div class="language-code">LSF</div>
+                <div>
+                    <h3>French Sign Language</h3>
+                    <p>France and francophone communities</p>
+                </div>
+                <span class="available">Available</span>
+            </div>
+
+
+            <div class="language-card">
+                <div class="language-code">CSL</div>
+                <div>
+                    <h3>Arabic Sign Language</h3>
+                    <p>UAE</p>
+                </div>
+                <span class="available">Available</span>
+            </div>
+
+        </section>
+
+
+        <section class="language-note">
+
+            <h2>More languages are coming.</h2>
+
+            <p>
+                Handspeak is being designed with expansion in mind.
+                Our goal is to make gesture-based communication
+                accessible across more communities.
+            </p>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

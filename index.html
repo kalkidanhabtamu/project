@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handspeak | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-mark">H</div>
+            <span>Handspeak</span>
+        </div>
+
+        <nav class="navigation">
+
+            <a href="index.html" class="nav-item active">
+                <span class="nav-icon">⌂</span>
+                <span>Home</span>
+            </a>
+
+            <a href="how-it-works.html" class="nav-item">
+                <span class="nav-icon">◎</span>
+                <span>How It Works</span>
+            </a>
+
+            <a href="languages.html" class="nav-item">
+                <span class="nav-icon">文</span>
+                <span>Languages</span>
+            </a>
+
+            <a href="mission.html" class="nav-item">
+                <span class="nav-icon">♡</span>
+                <span>Our Mission</span>
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <a href="#" class="nav-item">
+                <span class="nav-icon">?</span>
+                <span>Help & Support</span>
+            </a>
+
+            <a href="#" class="nav-item">
+                <span class="nav-icon">⚙</span>
+                <span>Settings</span>
+            </a>
+
+            <button class="sidebar-translate"
+                    onclick="location.href='translator.html'">
+                Start Translating
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+
+        <header class="topbar">
+
+            <div>
+                <p class="eyebrow">WELCOME TO HANDSPEAK</p>
+                <h1>Communication without barriers.</h1>
+            </div>
+
+            <div class="profile">
+                <div class="profile-avatar">U</div>
+                <div>
+                    <strong>Guest User</strong>
+                    <small>Translator</small>
+                </div>
+            </div>
+
+        </header>
+
+
+        <!-- STATISTICS -->
+
+        <section class="stats-grid">
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <span>Active Users</span>
+                    <span class="stat-icon">+</span>
+                </div>
+
+                <h2>00</h2>
+
+                <p class="positive">
+                    +0.00% this month
+                </p>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <span>Gestures Translated</span>
+                    <span class="stat-icon">G</span>
+                </div>
+
+                <h2>0</h2>
+
+                <p class="positive">
+                    +0.00% this month
+                </p>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <span>Languages</span>
+                    <span class="stat-icon">L</span>
+                </div>
+
+                <h2>6</h2>
+
+                <p class="neutral">
+                    Available now
+                </p>
+            </div>
+
+
+            <div class="stat-card">
+                <div class="stat-top">
+                    <span>Recognition</span>
+                    <span class="stat-icon">AI</span>
+                </div>
+
+                <h2>98%</h2>
+
+                <p class="positive">
+                    Demo recognition rate
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- HERO DASHBOARD -->
+
+        <section class="dashboard-hero">
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    REAL-TIME TRANSLATION
+                </span>
+
+                <h2>
+                    Turn hand gestures<br>
+                    into communication.
+                </h2>
+
+                <p>
+                    Handspeak is designed to recognize hand gestures,
+                    convert them into text, and transform that text
+                    into speech.
+                </p>
+
+                <button class="primary-button"
+                        onclick="startTranslator()">
+                    Start Translating
+                </button>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="scan-circle">
+
+                    <div class="hand-placeholder">
+                        HAND
+                    </div>
+
+                    <div class="scan-line"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LOWER DASHBOARD -->
+
+        <section class="dashboard-grid">
+
+            <div class="panel">
+
+                <div class="panel-header">
+                    <div>
+                        <h3>Translation Activity</h3>
+                        <p>Weekly gesture recognition activity</p>
+                    </div>
+
+                    <span class="panel-badge">Live</span>
+                </div>
+
+                <div class="chart">
+
+                    <div class="chart-bars">
+                        <div style="height:45%"></div>
+                        <div style="height:65%"></div>
+                        <div style="height:52%"></div>
+                        <div style="height:78%"></div>
+                        <div style="height:68%"></div>
+                        <div style="height:90%"></div>
+                        <div style="height:82%"></div>
+                    </div>
+
+                    <div class="chart-labels">
+                        <span>Mon</span>
+                        <span>Tue</span>
+                        <span>Wed</span>
+                        <span>Thu</span>
+                        <span>Fri</span>
+                        <span>Sat</span>
+                        <span>Sun</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="panel">
+
+                <div class="panel-header">
+
+                    <div>
+                        <h3>Quick Start</h3>
+                        <p>Get started with Handspeak</p>
+                    </div>
+
+                </div>
+
+                <div class="quick-list">
+
+                    <a href="how-it-works.html">
+                        <div class="quick-number">01</div>
+                        <div>
+                            <strong>Learn how it works</strong>
+                            <p>Understand the translation process</p>
+                        </div>
+                    </a>
+
+                    <a href="languages.html">
+                        <div class="quick-number">02</div>
+                        <div>
+                            <strong>Explore languages</strong>
+                            <p>See available sign languages</p>
+                        </div>
+                    </a>
+
+                    <a href="mission.html">
+                        <div class="quick-number">03</div>
+                        <div>
+                            <strong>Discover our mission</strong>
+                            <p>Learn why Handspeak was created</p>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
